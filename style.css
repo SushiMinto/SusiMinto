@@ -1,0 +1,301 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: "DotGothic16", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+p {
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+
+
+.header {
+    background: white;
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    z-index: 100;
+    box-shadow: 0 0 10px gray;
+}
+
+.header li {
+    display: inline-block;
+    padding-right: 10px;
+}
+
+.header ul {
+    text-align: right;
+    position: relative;
+    right: 20px;
+    top: 38px;
+
+}
+
+.header ul a {
+    color: black;
+    text-decoration: none;
+}
+
+.header .logo_text {
+    position: absolute;
+    top: 60px;
+    left: 20px;
+}
+
+.header h1 {
+    position: absolute;
+    top: 14px;
+    left: 20px;
+}
+
+.header .logo_img {
+    width: 50px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: 10px;
+    border: 1px solid #91D8C8;
+    padding: 10px;
+
+}
+
+.header_img_bottom {
+    width: 100%;
+    object-fit: cover;
+    height: 500px;
+    position: relative;
+    top: 100px;
+}
+
+.About_me {
+    background: #59316b;
+    width: 100%;
+    position: relative;
+    top: 70px;
+    color: white;
+    height: 500px;
+}
+
+.About_me h1 {
+    writing-mode: vertical-rl;
+    font-size: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.About_me p {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: 400px;
+}
+
+big {
+    font-size: 50px;
+}
+
+.SNS {
+    position: relative;
+    top: 200px;
+    background: white;
+    width: 100%;
+    height: 500px;
+}
+
+.SNS h1 {
+    writing-mode: vertical-rl;
+    font-size: 100px;
+    color: black;
+    width: 100px;
+    margin-left: auto;
+}
+
+.SNS p {
+    width: 500px;
+    margin-left: auto;
+    margin-right: 200px;
+    position: relative;
+    bottom: 300px;
+}
+
+.twitter {
+    width: 500px;
+    position: relative;
+    bottom: 550px;
+    margin-left: 100px;
+}
+
+.mail {
+    position: relative;
+    top: 150px;
+    background: rgb(18, 1, 53);
+    height: 500px;
+    width: 100%;
+}
+
+.mail h1 {
+    padding-top: 100px;
+    font-size: 100px;
+    color: white;
+    writing-mode: vertical-rl;
+}
+
+.mail p {
+    color: white;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    bottom: 200px;
+}
+
+@media screen and (max-width: 1321px) {
+    .About_me h1 {
+        writing-mode: vertical-rl;
+        font-size: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .About_me p {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        bottom: 250px;
+
+    }
+
+    .SNS h1 {
+        writing-mode: vertical-rl;
+        font-size: 50px;
+        color: black;
+        width: 50px;
+        margin-left: auto;
+    }
+
+    .mail h1 {
+        padding-top: 100px;
+        font-size: 50px;
+        color: white;
+        writing-mode: vertical-rl;
+    }
+
+    .mail p {
+        color: white;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        bottom: 105px;
+    }
+
+    .twitter {
+        width: 75%;
+        position: relative;
+        bottom: 200px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .SNS p {
+        display: none;
+    }
+
+    .header .logo_img {
+        width: 50px;
+        border-radius: 50%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        bottom: 10px;
+        border: none;
+        padding: 10px;
+
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .About_me h1 {
+        writing-mode: vertical-rl;
+        font-size: 50px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .About_me p {
+        width: 70%;
+        position: relative;
+        bottom: 250px;
+        margin-right: auto;
+        margin-left: auto;
+
+    }
+
+    .SNS h1 {
+        display: none;
+    }
+
+    .mail h1 {
+        padding-top: 100px;
+        font-size: 50px;
+        color: white;
+        writing-mode: vertical-rl;
+    }
+
+    .mail p {
+        color: white;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        position: relative;
+        bottom: 105px;
+    }
+
+    .twitter {
+        width: 100%;
+        position: relative;
+        bottom: 50px;
+        ;
+    }
+
+    .SNS p {
+        display: none;
+    }
+
+    .header .logo_text {
+        display: none;
+    }
+
+    .header h1 {
+        display: none;
+    }
+
+    .header .logo_img {
+        width: 50px;
+        border-radius: 50%;
+        display: block;
+        margin-left: 10px;
+        margin-right: 100%;
+        position: relative;
+        bottom: 10px;
+        border: 1px solid #91D8C8;
+        padding: 10px;
+
+    }
+}
